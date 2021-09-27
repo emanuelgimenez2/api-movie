@@ -1,0 +1,12 @@
+.descripcion {
+  height: 136px;
+  overflow: hidden;
+
+ p {
+  
+   height: 100%;
+   width: 100%;
+   overflow: hidden;
+   text-overflow: ellipsis;
+  }
+}

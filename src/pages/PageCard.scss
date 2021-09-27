@@ -1,0 +1,27 @@
+.CardComponent{
+    display: flex ;
+    flex-wrap: wrap;
+     align-items: center;
+    justify-content: center;
+     padding: 100px;
+     flex-direction: row;
+     gap: 2rem;
+     
+    
+}
+
+.full-description-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .full-description {
+        max-width: 50%;
+        background-color: white;
+    }
+}
+.pagination {
+        display: flex;
+        justify-content: center;
+        margin-top: 5rem;
+}
